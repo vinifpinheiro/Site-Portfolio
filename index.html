@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
         <!--============ SWIPPER CSS ================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
 
         <!--============ CSS ================-->
@@ -552,13 +552,55 @@
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Meus projetos</span>
 
-                <div class="portfolio__container container">
-                    <div>
+                <div class="portfolio__container container swipwe-container">
+                    <div class="swiper-wrapper">
                          <!--==================== PORTFOLIO 1 ====================-->
-                         <div class="portfolio__content grid">
+                         <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/timer-1.PNG" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Cronômetro para tarefas</h3>
+                                <p class="portfolio__description">Cronômetro responsivo com o objetivo de melhorar a gestão de tempo com realizações de tarefas.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                         </div>
+
+                         <!--==================== PORTFOLIO 2 ====================-->
+                         <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/techincal-1.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Ficha técnica profissional</h3>
+                                <p class="portfolio__description">Ficha profissional onde contem todas as informações que o usuarioi quiser.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                         </div>
+
+                         <!--==================== PORTFOLIO 3 ====================-->
+                         <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/landing-1.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Landing Page</h3>
+                                <p class="portfolio__description">Landing page basica onde foi feita para fins de uso advocacionais</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                             </div>
                          </div>
                     </div>
+                    <!--Adding arrows-->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!--Adding pagination-->
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
 
@@ -588,7 +630,7 @@
 
 
         <!--============ SWIPPER JS ================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
 
         <!--============ MAIN JS ================-->
